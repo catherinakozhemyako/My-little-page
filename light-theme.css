@@ -1,0 +1,21 @@
+.content-topic , .how-it-work-topic, .site-footer .last-line{
+    border-bottom: 2px solid rgb(42, 186, 52);
+}
+
+.things-about-site{
+  border-right: 2px solid rgb(42, 186, 52);
+}
+.site-header, .site-footer{
+    background-color: rgb(17, 117, 65); 
+    color: rgb(255, 252, 252); 
+}
+
+  @media screen and (hover: hover) {
+    .site-navigation a:hover {
+      color: rgb(27, 174, 176);
+    }
+  }
+
+  .container-about {
+    background: linear-gradient(to top, rgba(18, 180, 96, 0.878), white);
+  }

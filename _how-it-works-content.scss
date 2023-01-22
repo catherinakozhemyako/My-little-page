@@ -1,0 +1,19 @@
+.how-it-work-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) );
+    justify-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+.how-it-work-content{
+    text-align: center;
+    word-wrap: unset;
+    padding: 10px;
+}
+
+.how-it-work-after-topic{
+    padding: 10px;
+}

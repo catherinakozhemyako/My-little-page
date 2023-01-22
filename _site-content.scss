@@ -1,0 +1,50 @@
+
+.main-photo{
+display: flex;
+  }
+.bgText{
+  display: flex;
+  background-color: rgba(17, 117, 65, 0.497);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (min-width:999px) {
+  .main-photo{
+    position: relative;
+    }
+  .bgText{
+    position: absolute;
+    background-color: rgba(17, 117, 65, 0.497);
+    display: flex;
+    flex: 0 1 300px;
+    top: 30%;
+    left: 50%;
+    padding: 10%;
+    color: rgb(255, 255, 255);
+  text-align: end;
+  }
+}  
+
+
+
+.aside-content{
+  display: grid;
+flex-wrap: wrap;
+text-align: end;
+grid-template-columns: 1fr auto;
+margin: 0;
+.things-about-site{
+  padding: 10px;
+}}
+
+
+.foto-container{
+ padding: 10px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(auto-fit, minmax(200px,1fr));
+  justify-content: start;
+  gap: 10px;
+}
